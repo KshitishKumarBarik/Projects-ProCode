@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 570px;
+    background-image: url('zomato-image.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar {
+    height: 50px;
+    width: 900px;
+    position: absolute;
+    top: 15px;
+    left: 280px;
+}
+.nav-items {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+.nav-items a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 28px;
+}
+.header-content {
+    position: absolute;
+    height:fit-content;
+    width: fit-content;
+    top: 180px;
+    left: 450px;
+}
+.header-content img {
+    height: 70px;
+    margin-bottom: 35px;
+    position: relative;
+    left: 90px;
+}
+.header-content p {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+main {
+    background-color: #fff;
+}
+.heading p {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #1c1c1c;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    height: fit-content;
+}
+.heading p img {
+    height: 40px;
+    cursor: pointer;
+}
+.heading #content {
+    font-size: 20px;
+    color: #696969;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.restaurant-list {
+    margin-top: 80px;
+    margin-left: 202px;
+    margin-right: 202px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.restaurant {
+    height: 70px;
+    width: 330px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgba(117, 117, 117, 0.428);
+    border-radius: 8px;
+    margin: 10px 10px ;
+}
+.restaurant-name {
+    font-size: 19px;
+    color: #1c1c1c;
+    letter-spacing: 1px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.icon {
+    position: relative;
+    top: 6px;
+    left: 300px;
+    cursor: pointer;
+}
+.country-section {
+    height: fit-content;
+    width: fit-content;
+}
+.country-section h2 {
+    margin: 40px 215px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1c1c1c;
+    letter-spacing: 2px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+.country-list {
+    margin-top: 10px;
+    margin-left: 202px;
+    margin-right: 202px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.country {
+    height: 70px;
+    width: 330px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgba(117, 117, 117, 0.428);
+    border-radius: 8px;
+    margin: 10px 10px ;
+}
+.country-name {
+    font-size: 18px;
+    color: #1c1c1c;
+    letter-spacing: 1px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+footer {
+    height: 455px;
+    background-color: rgb(248, 248, 248);
+    padding: 50px 210px 0;
+}
+.footer1 {
+    height: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.f-logo {
+    width: 770px;
+}
+.f-logo img {
+    height: 28px;
+    width: 132px;
+}
+.f-india {
+    height: 35px;
+    width: 110px;
+    font-size: 20px;
+    color: #1c1c1c;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 7px;
+}
+.f-india img {
+   position: relative;
+   top: 3px;
+}
+.f-india span {
+    position: relative;
+    top: 3px;
+ }
+.f-india i {
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.f-english {
+    height: 35px;
+    width: 140px;
+    font-size: 20px;
+    color: #1c1c1c;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 7px;  
+    margin-left: 25px;
+}
+.f-english span {
+    position: relative;
+    top: 3px;
+}
+.f-english i {
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+.f-english #arrow {
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.footer2 {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #696969;
+}
+.lists {
+    height: 186px;
+    width: 202px;
+}
+.lists a {
+    text-decoration: none;
+    color: #696969;
+}
+.footer3 {
+    height: 60px;
+    color: #696969;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    padding: 15px 0;
+    text-align: center;
+}
